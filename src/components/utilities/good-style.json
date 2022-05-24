@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_utilities_good_styles",
+  "info": {
+    "displayName": "GoodStyle",
+    "icon": "cubes"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "colors": {
+      "type": "json"
+    },
+    "materials": {
+      "type": "json"
+    }
+  }
+}

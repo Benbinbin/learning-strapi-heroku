@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "good_items",
+  "info": {
+    "singularName": "good-item",
+    "pluralName": "good-items",
+    "displayName": "GoodItem",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "itemId": {
+      "type": "uid",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "abstract": {
+      "type": "text"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imgList": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "customizable": {
+      "type": "boolean",
+      "default": true
+    },
+    "stock": {
+      "type": "integer",
+      "default": 0
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "bag",
+        "shoe",
+        "cloth"
+      ]
+    },
+    "goodStyle": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utilities.good-style"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "good_descriptions",
+  "info": {
+    "singularName": "good-description",
+    "pluralName": "good-descriptions",
+    "displayName": "GoodDescription"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "good_item": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::good-item.good-item",
+      "inversedBy": "good_description"
+    },
+    "assetList": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "information": {
+      "type": "dynamiczone",
+      "components": [
+        "description.media",
+        "description.paragraph"
+      ]
+    }
+  }
+}

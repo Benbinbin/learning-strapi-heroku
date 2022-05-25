@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_utilities_good_sizes",
+  "info": {
+    "displayName": "GoodSize",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "width": {
+      "type": "decimal"
+    },
+    "height": {
+      "type": "decimal"
+    },
+    "length": {
+      "type": "decimal"
+    }
+  }
+}

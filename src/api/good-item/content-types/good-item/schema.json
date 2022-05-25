@@ -31,14 +31,6 @@
         "images"
       ]
     },
-    "imgList": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "customizable": {
       "type": "boolean",
       "default": true
@@ -57,8 +49,14 @@
     },
     "goodStyle": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "utilities.good-style"
+    },
+    "good_description": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::good-description.good-description",
+      "inversedBy": "good_item"
     }
   }
 }

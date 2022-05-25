@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_description_media",
+  "info": {
+    "displayName": "Media",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "file": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

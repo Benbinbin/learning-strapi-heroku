@@ -20,6 +20,12 @@
       "type": "string",
       "required": true
     },
+    "variants": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utilities.good-variant",
+      "required": true
+    },
     "abstract": {
       "type": "text"
     },
@@ -49,12 +55,6 @@
       "relation": "oneToOne",
       "target": "api::good-description.good-description",
       "mappedBy": "good_item"
-    },
-    "variants": {
-      "type": "component",
-      "repeatable": true,
-      "component": "utilities.good-variant",
-      "required": true
     }
   }
 }

@@ -10,9 +10,6 @@
     "type": {
       "type": "string"
     },
-    "colors": {
-      "type": "json"
-    },
     "materials": {
       "type": "json"
     },

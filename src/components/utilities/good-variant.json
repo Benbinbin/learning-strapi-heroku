@@ -20,7 +20,19 @@
       "default": "default production"
     },
     "color": {
-      "type": "string"
+      "type": "enumeration",
+      "enum": [
+        "black",
+        "gray",
+        "red",
+        "blue",
+        "cyan",
+        "purple",
+        "green",
+        "yellow",
+        "orange",
+        "white"
+      ]
     }
   }
 }

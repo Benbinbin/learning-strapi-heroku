@@ -4,7 +4,8 @@
   "info": {
     "singularName": "good-description",
     "pluralName": "good-descriptions",
-    "displayName": "GoodDescription"
+    "displayName": "GoodDescription",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,19 +19,16 @@
       "inversedBy": "good_description"
     },
     "assetList": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "information": {
-      "type": "dynamiczone",
-      "components": [
-        "description.media",
-        "description.paragraph"
-      ]
+      "type": "richtext"
     }
   }
 }

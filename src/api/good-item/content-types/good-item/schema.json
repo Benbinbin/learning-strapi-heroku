@@ -56,7 +56,7 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::good-description.good-description",
-      "inversedBy": "good_item"
+      "mappedBy": "good_item"
     }
   }
 }

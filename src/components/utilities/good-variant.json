@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_utilities_good_variants",
+  "info": {
+    "displayName": "GoodVariant",
+    "icon": "gem"
+  },
+  "options": {},
+  "attributes": {
+    "thumbnail": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "alt": {
+      "type": "string",
+      "default": "default production"
+    },
+    "color": {
+      "type": "string"
+    }
+  }
+}

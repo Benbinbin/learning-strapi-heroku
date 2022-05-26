@@ -23,14 +23,6 @@
     "abstract": {
       "type": "text"
     },
-    "thumbnail": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "customizable": {
       "type": "boolean",
       "default": true
@@ -57,6 +49,12 @@
       "relation": "oneToOne",
       "target": "api::good-description.good-description",
       "mappedBy": "good_item"
+    },
+    "variants": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utilities.good-variant",
+      "required": true
     }
   }
 }

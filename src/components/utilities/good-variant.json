@@ -23,15 +23,12 @@
       "type": "enumeration",
       "enum": [
         "black",
-        "gray",
-        "red",
-        "blue",
-        "cyan",
-        "purple",
-        "green",
-        "yellow",
-        "orange",
         "white",
+        "red",
+        "yellow",
+        "green",
+        "blue",
+        "purple",
         "colorful"
       ]
     }

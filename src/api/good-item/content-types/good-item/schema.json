@@ -101,7 +101,8 @@
           "localized": true
         }
       },
-      "type": "decimal"
+      "type": "decimal",
+      "default": 0.00
     },
     "sales": {
       "pluginOptions": {

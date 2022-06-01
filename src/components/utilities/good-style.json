@@ -10,9 +10,6 @@
     "type": {
       "type": "string"
     },
-    "materials": {
-      "type": "json"
-    },
     "goodSize": {
       "type": "component",
       "repeatable": false,
@@ -20,6 +17,22 @@
     },
     "addition": {
       "type": "json"
+    },
+    "material": {
+      "type": "enumeration",
+      "enum": [
+        "canvas",
+        "cotton",
+        "fabric",
+        "fiber",
+        "jute",
+        "leather",
+        "nylon",
+        "polypropylene",
+        "polyester",
+        "PU",
+        "PVC"
+      ]
     }
   }
 }

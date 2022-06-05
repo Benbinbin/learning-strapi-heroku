@@ -102,7 +102,7 @@
         }
       },
       "type": "decimal",
-      "default": 0.00
+      "default": 0
     },
     "sales": {
       "pluginOptions": {
@@ -112,6 +112,15 @@
       },
       "type": "integer",
       "default": 0
+    },
+    "freeSample": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "default": false
     }
   }
 }
